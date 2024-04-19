@@ -1,0 +1,80 @@
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+    padding-top: 20px;
+    height: 10px;
+}
+.menu{
+    padding-top: 20px;
+    height: 100px;
+    text-align: right;
+}
+.top_bg{
+    text-align:  center;    /* 文字中央寄せ */
+    padding:  50px;        /* 余白指定 */
+    border: solid 2px;      /* 枠線指定 */
+    background-image: url(img/top.jpg);    /* 背景画像指定 */
+}
+.top_bg_-text{
+    border:  solid 1px;                             /* 枠線指定 */
+    display:  inline-block;                         /* インラインブロックにする */
+    padding: 10px 20px;                             /* 余白指定 */
+    background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+}
+.login{
+    padding-top: 50px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+.kanri{
+    padding-top: 50px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+
+
+.linkds{
+    font-weight:bold;
+    display: inline-block;
+    transition:.3s;
+    transform: scale(1);
+    color: #000000;
+    text-decoration: none;
+    }
+.linkds:hover{
+    font-weight:bold;
+    transform: scale(1.05);
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 50px;
+        gap: 20px; 
+        font-size: 18px;
+        
+    }
+    .card {
+        border:5px solid #c0c0c0;
+        border-radius:1em;
+        padding: 10px;
+        margin: 10px;
+        width: 280px;
+        display: inline-block;
+        vertical-align: top;
+        box-sizing: border-box;
+    }
+    .card-content {
+        padding: 10px;
+    }
